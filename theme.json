@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "template-hexo-theme-next",
+  "name": "hexo-next",
+  "author": "ZrLog",
+  "description": "移植 Hexo NexT 主题风格，保留双栏结构与暗色模式，适合技术类博客。",
+  "repository": "https://github.com/zrlog-extensions/template-hexo-theme-next",
+  "engine": "freemarker",
+  "sourceDirectory": ".",
+  "testedRuntime": "3.9.2",
+  "preview": "https://www.zrlog.com/attached/template/preview/template-hexo-theme-next.jpg",
+  "createdDate": "2016-01-04 13:00:00",
+  "tags": [
+    "极简",
+    "黑白",
+    "NexT 移植",
+    "开发者"
+  ],
+  "en": {
+    "name": "hexo-next",
+    "desc": "A ZrLog port of the Hexo NexT style with a two-column layout and dark mode, suited to technical blogs.",
+    "tags": [
+      "Minimal",
+      "Monochrome",
+      "NexT Port",
+      "Developers"
+    ]
+  },
+  "distribution": {
+    "mode": "shared",
+    "target": "github-release"
+  },
+  "latestRelease": null,
+  "historicalRelease": {
+    "tag": "v1.0.0",
+    "url": "https://dl.zrlog.com/attachment/template/template-hexo-theme-next.zip"
+  }
+}

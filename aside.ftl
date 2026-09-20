@@ -2,7 +2,7 @@
     <div class="sidebar-inner">
         <section class="site-overview sidebar-panel  sidebar-panel-active ">
             <div class="site-author motion-element">
-                <img class="site-author-image" src="${_res.avatar!}" alt="${_res.internetName!}">
+                <img class="site-author-image" src="<#if (_res.avatar!'')?has_content>${_res.avatar}<#else>${templateUrl}/images/avatar.gif</#if>" alt="${_res.internetName!}">
                 <p class="site-author-name">${_res.internetName!}</p>
                 <p class="site-description motion-element">${_res.slogan!}</p>
             </div>

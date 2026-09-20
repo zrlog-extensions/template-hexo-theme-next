@@ -41,7 +41,7 @@
     </div>
     </section>
     <#if init.webSite.duoshuo_status == "on">
-    <#include "../../core/duoshuo_comment.ftl">
+    <#include "comment.ftl">
 </#if>
 </div>
 </div>
